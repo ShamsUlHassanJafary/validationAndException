@@ -1,0 +1,134 @@
+[
+  {
+    "_id": "830159fb-173b-4b19-b5df-8c82807eac6c",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8080/save",
+    "url": "http://localhost:8080/save",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-03-10T09:13:31.918Z",
+    "modified": "2023-03-10T09:13:31.918Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\n  \"username\":\"\",\n  \"password\":\"12\",\n  \"nationality\":\"Pakistani\",\n  \"email\":\"shams\",\n  \"phonenumber\":\"adsad\",\n  \"gender\":\"male\",\n  \"age\":12\n  }",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "9221b8f9-dc3d-4753-8838-31ba02c915e2",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8080/user/save",
+    "url": "http://localhost:8080/user/save",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-03-10T09:14:44.595Z",
+    "modified": "2023-03-10T10:11:37.608Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\r\n  \"username\":\"Hassan\",\r\n  \"password\":\"1212344\",\r\n  \"nationality\":\"Pakistani\",\r\n  \"email\":\"shamskhosa7@gmail.com\",\r\n  \"phonenumber\":\"12345678910\",\r\n  \"gender\":\"male\",\r\n  \"age\":18\r\n  }",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "a8356f85-40b1-48f7-beab-71568169eee0",
+    "colId": "history",
+    "containerId": "",
+    "name": "http:localhost:8080/user/save",
+    "url": "http:localhost:8080/user/save",
+    "method": "POST",
+    "sortNum": 0,
+    "created": "2023-03-10T09:33:30.999Z",
+    "modified": "2023-03-10T09:33:30.999Z",
+    "headers": [],
+    "params": [],
+    "body": {
+      "type": "json",
+      "raw": "{\r\n  \"username\":\"\",\r\n  \"password\":\"12\",\r\n  \"nationality\":\"Pakistani\",\r\n  \"email\":\"shams\",\r\n  \"phonenumber\":\"adsad\",\r\n  \"gender\":\"male\",\r\n  \"age\":12\r\n  }",
+      "form": []
+    },
+    "tests": []
+  },
+  {
+    "_id": "1e18524c-467f-48de-b66a-5ba613a63949",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8080/user/getuser?email=shamskhosa7@gmail.com&password=1212344",
+    "url": "http://localhost:8080/user/getuser?email=shamskhosa7@gmail.com&password=1212344",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-03-10T10:19:23.032Z",
+    "modified": "2023-03-10T10:41:54.111Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "email",
+        "value": "shamskhosa7@gmail.com",
+        "isPath": false
+      },
+      {
+        "name": "password",
+        "value": "1212344",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "836a7641-1bbd-4081-8e6d-6860fbd90c13",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8080/user/getuser?email=shamskhosa7@gmail.com&password=121234",
+    "url": "http://localhost:8080/user/getuser?email=shamskhosa7@gmail.com&password=121234",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-03-10T10:21:00.324Z",
+    "modified": "2023-03-10T10:48:55.924Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "email",
+        "value": "shamskhosa7@gmail.com",
+        "isPath": false
+      },
+      {
+        "name": "password",
+        "value": "121234",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  },
+  {
+    "_id": "a2320ca8-912c-48a2-bee7-33a77869cd46",
+    "colId": "history",
+    "containerId": "",
+    "name": "http://localhost:8080/user/getuser?email=shamskhosa7@gmail.com&password=1212345",
+    "url": "http://localhost:8080/user/getuser?email=shamskhosa7@gmail.com&password=1212345",
+    "method": "GET",
+    "sortNum": 0,
+    "created": "2023-03-10T10:49:01.905Z",
+    "modified": "2023-03-10T10:49:01.905Z",
+    "headers": [],
+    "params": [
+      {
+        "name": "email",
+        "value": "shamskhosa7@gmail.com",
+        "isPath": false
+      },
+      {
+        "name": "password",
+        "value": "1212345",
+        "isPath": false
+      }
+    ],
+    "tests": []
+  }
+]
